@@ -1,0 +1,242 @@
+2020-04-01 15:07:49.369 [main] INFO  com.company.project.Application - Starting Application on HPZBook15G5 with PID 40712 (C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed\target\classes started by hhqiw in C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed)
+2020-04-01 15:07:49.371 [main] INFO  com.company.project.Application - The following profiles are active: dev
+2020-04-01 15:07:49.413 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f010382: startup date [Wed Apr 01 15:07:49 CST 2020]; root of context hierarchy
+2020-04-01 15:07:49.535 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-04-01 15:07:50.497 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2020-04-01 15:07:50.513 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-01 15:07:50.523 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 15:07:50.524 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 15:07:50.650 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 15:07:50.650 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1237 ms
+2020-04-01 15:07:50.927 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-04-01 15:07:50.928 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-04-01 15:07:50.930 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-01 15:07:50.931 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-01 15:07:50.931 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-01 15:07:50.931 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-01 15:07:50.931 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-01 15:07:50.976 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-01 15:07:51.424 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-01 15:07:52.004 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f010382: startup date [Wed Apr 01 15:07:49 CST 2020]; root of context hierarchy
+2020-04-01 15:07:52.056 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.add(com.company.project.model.User)
+2020-04-01 15:07:52.057 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.update(com.company.project.model.User)
+2020-04-01 15:07:52.058 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.list(java.lang.Integer,java.lang.Integer)
+2020-04-01 15:07:52.058 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.delete(java.lang.Integer)
+2020-04-01 15:07:52.058 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/detail],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.detail(java.lang.Integer)
+2020-04-01 15:07:52.059 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/findByIds],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.findByIds(java.lang.String)
+2020-04-01 15:07:52.060 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-01 15:07:52.061 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-01 15:07:52.097 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-01 15:07:52.263 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-04-01 15:07:52.265 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-04-01 15:07:52.265 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-04-01 15:07:52.271 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2020-04-01 15:07:52.272 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-04-01 15:07:52.285 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-01 15:07:52.302 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-04-01 15:07:52.317 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2020-04-01 15:07:52.322 [main] INFO  com.company.project.Application - Started Application in 3.364 seconds (JVM running for 4.394)
+2020-04-01 15:09:32.967 [http-nio-8081-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-01 15:09:32.968 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-01 15:09:32.993 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2020-04-01 15:11:51.293 [main] INFO  com.company.project.Application - Starting Application on HPZBook15G5 with PID 38452 (C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed\target\classes started by hhqiw in C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed)
+2020-04-01 15:11:51.296 [main] INFO  com.company.project.Application - The following profiles are active: dev
+2020-04-01 15:11:51.336 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f010382: startup date [Wed Apr 01 15:11:51 CST 2020]; root of context hierarchy
+2020-04-01 15:11:51.433 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-04-01 15:11:52.282 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2020-04-01 15:11:52.295 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-01 15:11:52.302 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 15:11:52.302 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 15:11:52.387 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 15:11:52.388 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1052 ms
+2020-04-01 15:11:52.577 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-04-01 15:11:52.578 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-04-01 15:11:52.580 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-01 15:11:52.581 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-01 15:11:52.581 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-01 15:11:52.581 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-01 15:11:52.581 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-01 15:11:52.623 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-01 15:11:52.920 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-01 15:11:53.396 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f010382: startup date [Wed Apr 01 15:11:51 CST 2020]; root of context hierarchy
+2020-04-01 15:11:53.439 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.add(com.company.project.model.User)
+2020-04-01 15:11:53.440 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.update(com.company.project.model.User)
+2020-04-01 15:11:53.440 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.list(java.lang.Integer,java.lang.Integer)
+2020-04-01 15:11:53.440 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.delete(java.lang.Integer)
+2020-04-01 15:11:53.441 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/detail],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.detail(java.lang.Integer)
+2020-04-01 15:11:53.441 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/findByIds],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.findByIds(java.lang.String)
+2020-04-01 15:11:53.442 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-01 15:11:53.442 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-01 15:11:53.483 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-01 15:11:53.622 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-04-01 15:11:53.623 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-04-01 15:11:53.623 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-04-01 15:11:53.626 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2020-04-01 15:11:53.627 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-04-01 15:11:53.633 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-01 15:11:53.644 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-04-01 15:11:53.655 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2020-04-01 15:11:53.658 [main] INFO  com.company.project.Application - Started Application in 2.706 seconds (JVM running for 3.727)
+2020-04-01 15:31:06.505 [main] INFO  com.company.project.Application - Starting Application on HPZBook15G5 with PID 23572 (C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed\target\classes started by hhqiw in C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed)
+2020-04-01 15:31:06.509 [main] INFO  com.company.project.Application - The following profiles are active: dev
+2020-04-01 15:31:06.545 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f010382: startup date [Wed Apr 01 15:31:06 CST 2020]; root of context hierarchy
+2020-04-01 15:31:06.639 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-04-01 15:31:07.464 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2020-04-01 15:31:07.477 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-01 15:31:07.484 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 15:31:07.484 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 15:31:07.571 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 15:31:07.571 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1026 ms
+2020-04-01 15:31:07.753 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-04-01 15:31:07.754 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-04-01 15:31:07.756 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-01 15:31:07.757 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-01 15:31:07.757 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-01 15:31:07.757 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-01 15:31:07.757 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-01 15:31:07.802 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-01 15:31:08.113 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-01 15:31:08.590 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f010382: startup date [Wed Apr 01 15:31:06 CST 2020]; root of context hierarchy
+2020-04-01 15:31:08.627 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.add(com.company.project.model.User)
+2020-04-01 15:31:08.628 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.update(com.company.project.model.User)
+2020-04-01 15:31:08.628 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.list(java.lang.Integer,java.lang.Integer)
+2020-04-01 15:31:08.628 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.delete(java.lang.Integer)
+2020-04-01 15:31:08.629 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/detail],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.detail(java.lang.Integer)
+2020-04-01 15:31:08.629 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/findByIds],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.findByIds(java.lang.String)
+2020-04-01 15:31:08.630 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-01 15:31:08.631 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-01 15:31:08.665 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-01 15:31:08.812 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-04-01 15:31:08.813 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-04-01 15:31:08.813 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-04-01 15:31:08.816 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2020-04-01 15:31:08.816 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-04-01 15:31:08.822 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-01 15:31:08.834 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-04-01 15:31:08.846 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2020-04-01 15:31:08.849 [main] INFO  com.company.project.Application - Started Application in 2.744 seconds (JVM running for 3.717)
+2020-04-01 15:37:38.435 [main] INFO  com.company.project.Application - Starting Application on HPZBook15G5 with PID 38504 (C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed\target\classes started by hhqiw in C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed)
+2020-04-01 15:37:38.445 [main] INFO  com.company.project.Application - The following profiles are active: dev
+2020-04-01 15:37:38.485 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f010382: startup date [Wed Apr 01 15:37:38 CST 2020]; root of context hierarchy
+2020-04-01 15:37:38.583 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-04-01 15:37:39.433 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2020-04-01 15:37:39.447 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-01 15:37:39.450 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 15:37:39.450 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 15:37:39.549 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 15:37:39.549 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1064 ms
+2020-04-01 15:37:39.762 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-04-01 15:37:39.763 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-04-01 15:37:39.766 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-01 15:37:39.767 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-01 15:37:39.767 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-01 15:37:39.768 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-01 15:37:39.768 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-01 15:37:39.818 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-01 15:37:40.147 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-01 15:37:40.627 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f010382: startup date [Wed Apr 01 15:37:38 CST 2020]; root of context hierarchy
+2020-04-01 15:37:40.665 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.add(com.company.project.model.User)
+2020-04-01 15:37:40.666 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.update(com.company.project.model.User)
+2020-04-01 15:37:40.666 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.list(java.lang.Integer,java.lang.Integer)
+2020-04-01 15:37:40.666 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.delete(java.lang.Integer)
+2020-04-01 15:37:40.667 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/detail],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.detail(java.lang.Integer)
+2020-04-01 15:37:40.667 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/findByIds],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.findByIds(java.lang.String)
+2020-04-01 15:37:40.668 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-01 15:37:40.668 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-01 15:37:40.708 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-01 15:37:40.848 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-04-01 15:37:40.849 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-04-01 15:37:40.849 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-04-01 15:37:40.852 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2020-04-01 15:37:40.852 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-04-01 15:37:40.859 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-01 15:37:40.869 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-04-01 15:37:40.880 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2020-04-01 15:37:40.883 [main] INFO  com.company.project.Application - Started Application in 2.774 seconds (JVM running for 3.705)
+2020-04-01 15:37:44.009 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-01 15:37:44.009 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-01 15:37:44.032 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2020-04-01 15:37:44.051 [http-nio-8081-exec-1] INFO  com.company.project.web.UserController - /findByIds
+2020-04-01 15:38:30.451 [main] INFO  com.company.project.Application - Starting Application on HPZBook15G5 with PID 27620 (C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed\target\classes started by hhqiw in C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed)
+2020-04-01 15:38:30.454 [main] INFO  com.company.project.Application - The following profiles are active: dev
+2020-04-01 15:38:30.497 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f010382: startup date [Wed Apr 01 15:38:30 CST 2020]; root of context hierarchy
+2020-04-01 15:38:30.595 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-04-01 15:38:31.419 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2020-04-01 15:38:31.433 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-01 15:38:31.441 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 15:38:31.441 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 15:38:31.535 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 15:38:31.535 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1038 ms
+2020-04-01 15:38:31.713 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-04-01 15:38:31.714 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-04-01 15:38:31.716 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-01 15:38:31.717 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-01 15:38:31.717 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-01 15:38:31.717 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-01 15:38:31.717 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-01 15:38:31.758 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-01 15:38:32.054 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-01 15:38:32.512 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f010382: startup date [Wed Apr 01 15:38:30 CST 2020]; root of context hierarchy
+2020-04-01 15:38:32.548 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.add(com.company.project.model.User)
+2020-04-01 15:38:32.549 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.update(com.company.project.model.User)
+2020-04-01 15:38:32.549 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.list(java.lang.Integer,java.lang.Integer)
+2020-04-01 15:38:32.550 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.delete(java.lang.Integer)
+2020-04-01 15:38:32.550 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/detail],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.detail(java.lang.Integer)
+2020-04-01 15:38:32.550 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/findByIds],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.findByIds(java.lang.String)
+2020-04-01 15:38:32.552 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-01 15:38:32.552 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-01 15:38:32.585 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-01 15:38:32.721 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-04-01 15:38:32.722 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-04-01 15:38:32.722 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-04-01 15:38:32.725 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2020-04-01 15:38:32.725 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-04-01 15:38:32.731 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-01 15:38:32.742 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-04-01 15:38:32.753 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2020-04-01 15:38:32.756 [main] INFO  com.company.project.Application - Started Application in 2.669 seconds (JVM running for 3.657)
+2020-04-01 15:38:36.191 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-01 15:38:36.191 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-01 15:38:36.215 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2020-04-01 15:46:31.903 [main] INFO  com.company.project.Application - Starting Application on HPZBook15G5 with PID 36064 (C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed\target\classes started by hhqiw in C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed)
+2020-04-01 15:46:31.907 [main] INFO  com.company.project.Application - The following profiles are active: dev
+2020-04-01 15:46:31.949 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2b6faea6: startup date [Wed Apr 01 15:46:31 CST 2020]; root of context hierarchy
+2020-04-01 15:46:32.069 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-04-01 15:46:32.956 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2020-04-01 15:46:32.974 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-01 15:46:32.981 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 15:46:32.982 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 15:46:33.081 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 15:46:33.081 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1132 ms
+2020-04-01 15:46:33.271 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-04-01 15:46:33.272 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-04-01 15:46:33.274 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-01 15:46:33.275 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-01 15:46:33.275 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-01 15:46:33.275 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-01 15:46:33.275 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-01 15:46:33.317 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-01 15:46:33.653 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-01 15:46:34.137 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2b6faea6: startup date [Wed Apr 01 15:46:31 CST 2020]; root of context hierarchy
+2020-04-01 15:46:34.175 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.add(com.company.project.model.User)
+2020-04-01 15:46:34.176 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/update],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.update(com.company.project.model.User)
+2020-04-01 15:46:34.176 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.list(java.lang.Integer,java.lang.Integer)
+2020-04-01 15:46:34.177 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.delete(java.lang.Integer)
+2020-04-01 15:46:34.177 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/detail],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.detail(java.lang.Integer)
+2020-04-01 15:46:34.177 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/findByIds],methods=[POST]}" onto public com.company.project.core.Result com.company.project.web.UserController.findByIds(java.lang.String)
+2020-04-01 15:46:34.178 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-01 15:46:34.179 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-01 15:46:34.218 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-01 15:46:34.374 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-04-01 15:46:34.375 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-04-01 15:46:34.375 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-04-01 15:46:34.378 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2020-04-01 15:46:34.379 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-04-01 15:46:34.385 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-01 15:46:34.396 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-04-01 15:46:34.406 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2020-04-01 15:46:34.410 [main] INFO  com.company.project.Application - Started Application in 2.869 seconds (JVM running for 3.818)
+2020-04-01 15:46:51.409 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-01 15:46:51.409 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-01 15:46:51.432 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2020-04-01 15:46:51.633 [http-nio-8081-exec-1] INFO  com.company.project.web.UserController - ss

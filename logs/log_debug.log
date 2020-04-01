@@ -1,0 +1,14 @@
+2020-04-01 15:11:51.296 [main] DEBUG com.company.project.Application - Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2020-04-01 15:31:06.508 [main] DEBUG com.company.project.Application - Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2020-04-01 15:37:38.445 [main] DEBUG com.company.project.Application - Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2020-04-01 15:37:44.195 [http-nio-8081-exec-1] DEBUG com.company.project.dao.UserMapper.selectByIds - ==>  Preparing: SELECT id,username,password,nick_name,sex,register_date FROM user where id in (1,2,32) 
+2020-04-01 15:37:44.208 [http-nio-8081-exec-1] DEBUG com.company.project.dao.UserMapper.selectByIds - ==> Parameters: 
+2020-04-01 15:37:44.221 [http-nio-8081-exec-1] DEBUG com.company.project.dao.UserMapper.selectByIds - <==      Total: 2
+2020-04-01 15:38:30.454 [main] DEBUG com.company.project.Application - Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2020-04-01 15:38:36.384 [http-nio-8081-exec-1] DEBUG com.company.project.dao.UserMapper.selectByIds - ==>  Preparing: SELECT id,username,password,nick_name,sex,register_date FROM user where id in (1,2,32) 
+2020-04-01 15:38:36.399 [http-nio-8081-exec-1] DEBUG com.company.project.dao.UserMapper.selectByIds - ==> Parameters: 
+2020-04-01 15:38:36.414 [http-nio-8081-exec-1] DEBUG com.company.project.dao.UserMapper.selectByIds - <==      Total: 2
+2020-04-01 15:46:31.906 [main] DEBUG com.company.project.Application - Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2020-04-01 15:46:51.602 [http-nio-8081-exec-1] DEBUG com.company.project.dao.UserMapper.selectByIds - ==>  Preparing: SELECT id,username,password,nick_name,sex,register_date FROM user where id in (1,2,32) 
+2020-04-01 15:46:51.617 [http-nio-8081-exec-1] DEBUG com.company.project.dao.UserMapper.selectByIds - ==> Parameters: 
+2020-04-01 15:46:51.632 [http-nio-8081-exec-1] DEBUG com.company.project.dao.UserMapper.selectByIds - <==      Total: 2

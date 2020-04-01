@@ -2,7 +2,7 @@ package com.conpany.project;
 
 import com.google.common.base.Joiner;
 
-public class test {
+public class test extends Tester{
     public static void main(String[] args) {
        test t=new test();
         System.out.println(t.soulation());

@@ -6,6 +6,9 @@ import com.company.project.model.User;
 import com.company.project.service.UserService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -18,7 +21,10 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/user")
+@Slf4j
 public class UserController {
+
+    private Logger logger= LoggerFactory.getLogger(UserController.class);
     @Resource
     private UserService userService;
 
@@ -58,6 +64,7 @@ public class UserController {
     @PostMapping("/findByIds")
     public Result findByIds(@RequestParam(defaultValue = "0") String ids) {
         List<User> list=userService.findByIds(ids);
+        log.info("ss");
         return ResultGenerator.genSuccessResult(list);
 
     }
