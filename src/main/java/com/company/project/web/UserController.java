@@ -64,7 +64,6 @@ public class UserController {
     @PostMapping("/findByIds")
     public Result findByIds(@RequestParam(defaultValue = "0") String ids) {
         List<User> list=userService.findByIds(ids);
-        log.info("ss");
         return ResultGenerator.genSuccessResult(list);
 
     }

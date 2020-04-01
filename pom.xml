@@ -109,6 +109,11 @@
             <version>1.16.20</version>
             <scope>provided</scope>
         </dependency>
+        <!-- AOP切面 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
