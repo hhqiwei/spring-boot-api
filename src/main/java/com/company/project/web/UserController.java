@@ -12,7 +12,9 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * Created by CodeGenerator on 2020/03/31.
+ *
+ * @author CodeGenerator
+ * @date 2020/03/31
  */
 @RestController
 @RequestMapping("/user")

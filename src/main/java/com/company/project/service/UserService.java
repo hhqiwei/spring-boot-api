@@ -4,7 +4,9 @@ import com.company.project.core.Service;
 
 
 /**
- * Created by CodeGenerator on 2020/03/31.
+ *
+ * @author CodeGenerator
+ * @date 2020/03/31
  */
 public interface UserService extends Service<User> {
 
