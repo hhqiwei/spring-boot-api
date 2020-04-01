@@ -79,7 +79,8 @@ public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
         exceptionResolvers.add(new HandlerExceptionResolver() {
             public ModelAndView resolveException(HttpServletRequest request, HttpServletResponse response, Object handler, Exception e) {
                 Result result = new Result();
-                if (e instanceof ServiceException) {//业务失败的异常，如“账号或密码错误”
+                // 业务失败的异常，如“账号或密码错误”
+                if (e instanceof ServiceException) {
                     result.setCode(ResultCode.FAIL).setMessage(e.getMessage());
                     logger.info(e.getMessage());
                 } else if (e instanceof NoHandlerFoundException) {

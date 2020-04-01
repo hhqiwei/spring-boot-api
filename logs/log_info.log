@@ -240,3 +240,107 @@
 2020-04-01 15:46:51.409 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2020-04-01 15:46:51.432 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
 2020-04-01 15:46:51.633 [http-nio-8081-exec-1] INFO  com.company.project.web.UserController - ss
+2020-04-01 16:01:12.612 [main] INFO  com.company.project.Application - Starting Application on HPZBook15G5 with PID 41300 (C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed\target\classes started by hhqiw in C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed)
+2020-04-01 16:01:12.617 [main] INFO  com.company.project.Application - The following profiles are active: dev
+2020-04-01 16:01:13.341 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-04-01 16:01:13.762 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-01 16:01:13.772 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-01 16:01:13.775 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 16:01:13.776 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-04-01 16:01:13.782 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\hhqiw\scoop\apps\ojdkbuild8-full\current\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\NetSarang\Xlpd 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xmanager 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\CADSeePlus;;C:\Program Files (x86)\HP\HP Performance Advisor;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git LFS;C:\Users\hhqiw\scoop\apps\ojdkbuild8-full\current\bin;C:\Users\hhqiw\go\bin;C:\Users\hhqiw\scoop\apps\python\current;C:\Users\hhqiw\scoop\apps\python\current\Scripts;C:\Users\hhqiw\scoop\apps\nodejs\current\bin;C:\Users\hhqiw\scoop\apps\nodejs\current;C:\Users\hhqiw\scoop\apps\maven\current\bin;C:\Users\hhqiw\scoop\shims;C:\Users\hhqiw\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3\bin;.]
+2020-04-01 16:01:13.884 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 16:01:13.884 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1188 ms
+2020-04-01 16:01:13.917 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-04-01 16:01:13.918 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2020-04-01 16:01:13.921 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-01 16:01:13.921 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-01 16:01:13.921 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2020-04-01 16:01:13.921 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-01 16:01:13.921 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-01 16:01:13.961 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-01 16:01:14.080 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-01 16:01:14.574 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 16:01:14.730 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-01 16:01:14.739 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-04-01 16:01:14.754 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-01 16:01:14.757 [main] INFO  com.company.project.Application - Started Application in 2.659 seconds (JVM running for 3.795)
+2020-04-01 16:01:36.158 [main] INFO  com.company.project.Application - Starting Application on HPZBook15G5 with PID 40336 (C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed\target\classes started by hhqiw in C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed)
+2020-04-01 16:01:36.164 [main] INFO  com.company.project.Application - The following profiles are active: dev
+2020-04-01 16:01:36.805 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-04-01 16:01:37.221 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-01 16:01:37.233 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-01 16:01:37.237 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 16:01:37.237 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-04-01 16:01:37.243 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\hhqiw\scoop\apps\ojdkbuild8-full\current\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\NetSarang\Xlpd 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xmanager 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\CADSeePlus;;C:\Program Files (x86)\HP\HP Performance Advisor;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git LFS;C:\Users\hhqiw\scoop\apps\ojdkbuild8-full\current\bin;C:\Users\hhqiw\go\bin;C:\Users\hhqiw\scoop\apps\python\current;C:\Users\hhqiw\scoop\apps\python\current\Scripts;C:\Users\hhqiw\scoop\apps\nodejs\current\bin;C:\Users\hhqiw\scoop\apps\nodejs\current;C:\Users\hhqiw\scoop\apps\maven\current\bin;C:\Users\hhqiw\scoop\shims;C:\Users\hhqiw\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3\bin;.]
+2020-04-01 16:01:37.352 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 16:01:37.352 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1147 ms
+2020-04-01 16:01:37.387 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-04-01 16:01:37.388 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2020-04-01 16:01:37.392 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-01 16:01:37.392 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-01 16:01:37.392 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2020-04-01 16:01:37.392 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-01 16:01:37.393 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-01 16:01:37.434 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-01 16:01:37.557 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-01 16:01:38.036 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 16:01:38.212 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-01 16:01:38.222 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-04-01 16:01:38.237 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-01 16:01:38.241 [main] INFO  com.company.project.Application - Started Application in 2.593 seconds (JVM running for 3.755)
+2020-04-01 16:01:40.727 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-01 16:01:40.727 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-01 16:01:40.733 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-04-01 16:01:40.949 [http-nio-8081-exec-1] INFO  com.company.project.web.UserController - ss
+2020-04-01 16:03:22.276 [main] INFO  com.company.project.Application - Starting Application on HPZBook15G5 with PID 37168 (C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed\target\classes started by hhqiw in C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed)
+2020-04-01 16:03:22.282 [main] INFO  com.company.project.Application - The following profiles are active: dev
+2020-04-01 16:03:22.960 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-04-01 16:03:23.374 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-01 16:03:23.385 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-01 16:03:23.388 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 16:03:23.388 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-04-01 16:03:23.393 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\hhqiw\scoop\apps\ojdkbuild8-full\current\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\NetSarang\Xlpd 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xmanager 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\CADSeePlus;;C:\Program Files (x86)\HP\HP Performance Advisor;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git LFS;C:\Users\hhqiw\scoop\apps\ojdkbuild8-full\current\bin;C:\Users\hhqiw\go\bin;C:\Users\hhqiw\scoop\apps\python\current;C:\Users\hhqiw\scoop\apps\python\current\Scripts;C:\Users\hhqiw\scoop\apps\nodejs\current\bin;C:\Users\hhqiw\scoop\apps\nodejs\current;C:\Users\hhqiw\scoop\apps\maven\current\bin;C:\Users\hhqiw\scoop\shims;C:\Users\hhqiw\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3\bin;.]
+2020-04-01 16:03:23.498 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 16:03:23.499 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1144 ms
+2020-04-01 16:03:23.529 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-04-01 16:03:23.530 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2020-04-01 16:03:23.533 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-01 16:03:23.533 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-01 16:03:23.533 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2020-04-01 16:03:23.533 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-01 16:03:23.533 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-01 16:03:23.568 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-01 16:03:23.682 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-01 16:03:24.125 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 16:03:24.289 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-01 16:03:24.301 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-04-01 16:03:24.316 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-01 16:03:24.318 [main] INFO  com.company.project.Application - Started Application in 2.499 seconds (JVM running for 3.526)
+2020-04-01 16:03:42.161 [main] INFO  com.company.project.Application - Starting Application on HPZBook15G5 with PID 44200 (C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed\target\classes started by hhqiw in C:\Users\hhqiw\Documents\GitHub\spring-boot-api-project-seed)
+2020-04-01 16:03:42.165 [main] INFO  com.company.project.Application - The following profiles are active: dev
+2020-04-01 16:03:42.860 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-04-01 16:03:43.314 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-04-01 16:03:43.322 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-04-01 16:03:43.327 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 16:03:43.327 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-04-01 16:03:43.333 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\hhqiw\scoop\apps\ojdkbuild8-full\current\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\NetSarang\Xlpd 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xmanager 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\CADSeePlus;;C:\Program Files (x86)\HP\HP Performance Advisor;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git LFS;C:\Users\hhqiw\scoop\apps\ojdkbuild8-full\current\bin;C:\Users\hhqiw\go\bin;C:\Users\hhqiw\scoop\apps\python\current;C:\Users\hhqiw\scoop\apps\python\current\Scripts;C:\Users\hhqiw\scoop\apps\nodejs\current\bin;C:\Users\hhqiw\scoop\apps\nodejs\current;C:\Users\hhqiw\scoop\apps\maven\current\bin;C:\Users\hhqiw\scoop\shims;C:\Users\hhqiw\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3\bin;.]
+2020-04-01 16:03:43.437 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 16:03:43.437 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1203 ms
+2020-04-01 16:03:43.469 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-04-01 16:03:43.470 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2020-04-01 16:03:43.472 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-01 16:03:43.472 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-01 16:03:43.472 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2020-04-01 16:03:43.472 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-01 16:03:43.473 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-01 16:03:43.509 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-01 16:03:43.613 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-01 16:03:44.062 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 16:03:44.223 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-04-01 16:03:44.234 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-04-01 16:03:44.248 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-01 16:03:44.251 [main] INFO  com.company.project.Application - Started Application in 2.563 seconds (JVM running for 3.616)
+2020-04-01 16:03:47.866 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-01 16:03:47.867 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-01 16:03:47.871 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-04-01 16:03:48.050 [http-nio-8081-exec-1] INFO  com.company.project.web.UserController - ss
