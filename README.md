@@ -18,6 +18,7 @@ Spring Boot API Project Seed 是一个基于Spring Boot & MyBatis的种子项目
 - [新增] 使用@Slf4j注解就可以使用日志，并配置号logback日志配置文件。
 参考：[springboot2.0 @Slf4j log 日志配置 输出到文件 彩色日志](https://blog.csdn.net/innovationad/article/details/80895508),[springboot2.0整合logback日志(详细)](https://www.cnblogs.com/zhangjianbing/p/8992897.html)（2020-04-01 15:48:14）
 - [新增] 使用AOP切片统一管理日志。参考：[SpringBoot + AOP 统一处理日志](https://blog.csdn.net/csdnluolei/article/details/87625275) 
+- [新增] 增加防止XSS攻击。
 
 ## 快速开始
 1. 克隆项目

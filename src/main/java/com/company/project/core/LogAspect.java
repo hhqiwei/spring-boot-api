@@ -15,14 +15,14 @@ import javax.servlet.http.HttpServletRequest;
  * @author hhqiwei
  * 2020-04-01 17:02:29
  */
-@Aspect //声明为切面类
+@Aspect // 声明为切面类
 @Component
 /**
  * 标记切点的优先级,i越小,优先级越高
  */
 @Order(1)
 @Slf4j
-public class MyAspectLog {
+public class LogAspect {
     // 定义切点表达式：*，第一个返回值，第二个类名，第三个方法名
     @Pointcut("execution(public * com.company.project.web.*.*(..))")
     /**
